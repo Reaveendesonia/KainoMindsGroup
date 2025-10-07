@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KainoMind — Consultoria • Cursos • Audiovisual</title>
+
+  <!-- Font Awesome (ícones) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SIDE MENU (oculto) -->
+  <button id="menuBtn" class="menu-btn" aria-label="Abrir Menu">Menu <i class="fas fa-bars"></i></button>
+  <aside id="sideMenu" class="side-menu" aria-hidden="true">
+    <button id="closeMenu" class="close-menu" aria-label="Fechar Menu"><i class="fas fa-times"></i></button>
+    <nav class="side-nav">
+      <a class="side-link" href="#home">Home</a>
+      <a class="side-link" href="#sobre">Sobre / Consultoria</a>
+      <button id="empresasToggle" class="side-link submenu-toggle">Empresas Kaino <i class="fas fa-caret-down"></i></button>
+      <ul id="empresasList" class="submenu">
+        <li><a class="side-link" href="#studios">KainoStudios</a></li>
+        <li><a class="side-link" href="#hope">Hope Int. School</a></li>
+        <li><a class="side-link" href="#sobre">Consultoria Empresarial</a></li>
+      </ul>
+      <a class="side-link" href="#contacto">Contactos</a>
+    </nav>
+  </aside>
+
+  <!-- HEADER minimal (branding) -->
+  <header class="header">
+    <div class="brand">KainoMind</div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-inner container">
+        <div class="hero-left">
+          <h1>Transformamos ideias em negócios e conteúdo de impacto</h1>
+          <p class="lead">Consultoria estratégica • Cursos online • Produção audiovisual profissional</p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="https://wa.me/258870668445" target="_blank" rel="noopener">
+              <i class="fab fa-whatsapp"></i> Falar com a Secretaria
+            </a>
+            <a class="btn btn-ghost" href="#contacto">
+              <i class="fas fa-info-circle"></i> Mais sobre nós
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <!-- Placeholder para imagem (substituir por img1.jpg) -->
+          
+      </div>
+    </section>
+
+    <!-- CONSULTORIA -->
+    <section id="sobre" class="section consultoria">
+      <div class="container">
+        <h2><i class="fas fa-briefcase"></i> Consultoria Empresarial</h2>
+        <p class="lead">A KainoMind ajuda gestores e empreendedores a estruturar negócios saudáveis e escaláveis — estratégia, finanças, operações e marketing prático.</p>
+
+        <div class="cards">
+          <article class="card">
+            <i class="fas fa-lightbulb"></i>
+            <h3>Planeamento Estratégico</h3>
+            <p>Definição de visão, metas e roadmap de crescimento alinhado com mercado.</p>
+          </article>
+
+          <article class="card">
+            <i class="fas fa-wallet"></i>
+            <h3>Gestão Financeira</h3>
+            <p>Fluxo de caixa, orçamento e precificação para margem sustentável.</p>
+          </article>
+
+          <article class="card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Marketing & Vendas</h3>
+            <p>Estratégias digitais para aquisição e retenção de clientes.</p>
+          </article>
+        </div>
+
+        <div class="consultoria-extras">
+          <div class="tips">
+            <h4>Dicas rápidas para o teu negócio</h4>
+            <ul>
+              <li>Valida a ideia com 10 clientes antes de escalar.</li>
+              <li>Regista receitas e despesas diariamente.</li>
+              <li>Cria propostas de valor claras para clientes-alvo.</li>
+            </ul>
+          </div>
+
+          <div class="talk-ceo">
+            <h4>Falar com o CEO</h4>
+            <p>Conversa direta para parcerias, estratégias e oportunidades.</p>
+            <a class="btn btn-whatsapp" href="https://wa.me/258834087419" target="_blank" rel="noopener">
+              <i class="fab fa-whatsapp"></i> Mensagem ao CEO
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kainostudios -->
+    <section id="studios" class="section studios">
+      <div class="container">
+        <h2><i class="fas fa-video"></i> KainoStudios — Produção Audiovisual</h2>
+        <p class="lead">Música, vídeo, design e fotografia com qualidade profissional para marcas e artistas.</p>
+
+        <div class="cards">
+          <article class="card">
+            <i class="fas fa-music"></i>
+            <h3>Estúdio de Música</h3>
+            <p>Equipamentos e engenheiros para gravação, mistura e masterização.</p>
+          </article>
+
+          <article class="card">
+            <i class="fas fa-film"></i>
+            <h3>Produção de Vídeo</h3>
+            <p>Roteiro, captação e edição para marketing e conteúdo.</p>
+          </article>
+
+          <article class="card">
+            <i class="fas fa-camera"></i>
+            <h3>Design & Fotografia</h3>
+            <p>Identidade visual, capas, materiais promocionais e sessões fotográficas.</p>
+          </article>
+        </div>
+
+        <div class="studios-benefits">
+          <h4>Vantagens de gravar connosco</h4>
+          <ul>
+            <li>Equipamento profissional e ambiente isolado.</li>
+            <li>Equipe experiente desde produção até pós-produção.</li>
+            <li>Entrega rápida e suporte à distribuição.</li>
+          </ul>
+
+          <h4>Pacotes & Orçamentos</h4>
+          <div class="packages">
+            <div class="pkg">
+              <h5>Pacote Básico</h5>
+              <p>Gravação + edição simples (1 faixa / 1 vídeo curto)</p>
+              <a class="btn btn-secondary" href="https://wa.me/258870668445" target="_blank" rel="noopener">Pedir Orçamento</a>
+            </div>
+            <div class="pkg">
+              <h5>Pacote Profissional</h5>
+              <p>Produção completa + mix/master / vídeo 2-3 min</p>
+              <a class="btn btn-secondary" href="https://wa.me/258870668445" target="_blank" rel="noopener">Pedir Orçamento</a>
+            </div>
+            <div class="pkg">
+              <h5>Pacote Full (Marca)</h5>
+              <p>Branding, sessões, 3+ conteúdos, consultoria de lançamento</p>
+              <a class="btn btn-secondary" href="https://wa.me/258870668445" target="_blank" rel="noopener">Pedir Orçamento</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hope International School -->
+    <section id="hope" class="section hope">
+      <div class="container">
+        <h2><i class="fas fa-school"></i> Hope International School — Cursos Online</h2>
+        <p class="lead">Formações práticas para criar, lançar e gerir o teu negócio.</p>
+
+        <div class="courses-grid">
+          <!-- repetir para 9 cursos; aqui mostramos 3+ e o resto numa grelha -->
+          <div class="course">
+            <h3>Criação e Lançamento de Negócios</h3>
+            <p>Modelo de negócio, proposta de valor, estudo de mercado e inovação.</p>
+            <a class="btn btn-enroll" href="https://wa.me/258870668445" target="_blank" rel="noopener">Inscrever</a>
+          </div>
+
+          <div class="course">
+            <h3>Gestão Financeira</h3>
+            <p>Fluxo de caixa, orçamento, precificação e finanças pessoais do empreendedor.</p>
+            <a class="btn btn-enroll" href="https://wa.me/258870668445" target="_blank" rel="noopener">Inscrever</a>
+          </div>
+
+          <div class="course">
+            <h3>Marketing Digital & Vendas</h3>
+            <p>Redes sociais, funil, tráfego pago e estratégias de engajamento.</p>
+            <a class="btn btn-enroll" href="https://wa.me/258870668445" target="_blank" rel="noopener">Inscrever</a>
+          </div>
+
+          <div class="course">
+            <h3>Mentalidade Empreendedora</h3>
+            <p>Liderança, inteligência emocional e gestão de equipas.</p>
+            <a class="btn btn-enroll" href="https://wa.me/258870668445" target="_blank" rel="noopener">Inscrever</a>
+          </div>
+
+          <div class="course">
+            <h3>E-commerce e Lojas Virtuais</h3>
+            <p>Plataformas, logística e atendimento.</p>
+            <a class="btn btn-enroll" href="https://wa.me/258870668445" target="_blank" rel="noopener">Inscrever</a>
+          </div>
+
+          <div class="course">
+            <h3>Planeamento Estratégico</h3>
+            <p>SWOT, OKRs, análise de mercado e produtividade.</p>
+            <a class="btn btn-enroll" href="https://wa.me/258870668445" target="_blank" rel="noopener">Inscrever</a>
+          </div>
+
+          <div class="course">
+            <h3>Negociação & Comunicação</h3>
+            <p>Técnicas de persuasão, negociação ganha-ganha e conflitos.</p>
+            <a class="btn btn-enroll" href="https://wa.me/258870668445" target="_blank" rel="noopener">Inscrever</a>
+          </div>
+
+          <div class="course">
+            <h3>Branding & Posicionamento</h3>
+            <p>Identidade visual, storytelling e diferenciação no mercado.</p>
+            <a class="btn btn-enroll" href="https://wa.me/258870668445" target="_blank" rel="noopener">Inscrever</a>
+          </div>
+
+          <div class="course">
+            <h3>Gestão de Projetos & Produtividade</h3>
+            <p>Scrum, Kanban, ferramentas e cronogramas.</p>
+            <a class="btn btn-enroll" href="https://wa.me/258870668445" target="_blank" rel="noopener">Inscrever</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contacto" class="section contact">
+      <div class="container">
+        <h2><i class="fas fa-comments"></i> Contactos</h2>
+        <p class="lead">Escreve-nos ou fala diretamente com a secretaria ou com o CEO.</p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h4>Secretaria</h4>
+            <p>Atendimento, inscrições e agendamentos.</p>
+            <a class="btn btn-primary" href="https://wa.me/258870668445" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp Secretaria</a>
+          </div>
+
+          <div class="contact-card">
+            <h4>CEO</h4>
+            <p>Parcerias, consultoria estratégica e oportunidades.</p>
+            <a class="btn btn-primary-outline" href="https://wa.me/258834087419" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> Falar com o CEO</a>
+          </div>
+
+          <div class="contact-card">
+            <h4>Email</h4>
+            <p>contacto@kainomind.example (substituir pelo real)</p>
+            <a class="btn btn-ghost" href="mailto:contacto@kainomind.example">Enviar Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FLOATING WHATSAPP (fixo, canto inferior direito) -->
+  <a class="floating-wa" href="https://wa.me/258870668445" target="_blank" rel="noopener" aria-label="WhatsApp Secretaria">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong>KainoMind</strong>
+          <p>Consultoria • Educação • Audiovisual</p>
+        </div>
+        <div>
+          <p><a href="#sobre" class="footer-link">Sobre</a></p>
+          <p><a href="#studios" class="footer-link">KainoStudios</a></p>
+          <p><a href="#hope" class="footer-link">Hope</a></p>
+        </div>
+        <div>
+          <p>Telefone: +258 87 066 8445</p>
+          <p>CEO: +258 83 408 7419</p>
+        </div>
+      </div>
+
+      <small class="copyright">© 2025 KainoMind. Todos os direitos reservados.</small>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
